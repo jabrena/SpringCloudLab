@@ -31,6 +31,8 @@ dependencies {
     compile group: "org.springframework.boot", name: "spring-boot-starter-web"
     compile("org.springframework:spring-web")
     compile("com.fasterxml.jackson.core:jackson-databind")
+    compile("io.reactivex:rxjava:1.1.1")
+    compile("org.projectlombok:lombok:1.16.6")
     testCompile 'junit:junit:4.12'
 }
 
