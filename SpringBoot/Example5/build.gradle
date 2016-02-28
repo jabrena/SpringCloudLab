@@ -1,0 +1,29 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
+  }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    mavenCentral()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile group: "org.springframework.boot", name: "spring-boot-starter-web"
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework:spring-web")
+    compile("com.fasterxml.jackson.core:jackson-databind")
+    compile("io.reactivex:rxjava:1.1.1") 
+    compile("org.projectlombok:lombok:1.16.6") 
+}
