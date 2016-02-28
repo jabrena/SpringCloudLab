@@ -1,4 +1,4 @@
-package boot.examples.controllers;
+package boot.examples.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -2,7 +2,7 @@
 <projectDescription>
 	<filteredResources>
 		<filter>
-			<id>1456326537941</id>
+			<id>1456664652693</id>
 			<name/>
 			<type>26</type>
 			<matcher>
@@ -11,7 +11,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1456326537951</id>
+			<id>1456664652900</id>
 			<name/>
 			<type>26</type>
 			<matcher>
@@ -24,6 +24,7 @@
 	<comment/>
 	<projects/>
 	<natures>
+		<nature>org.springsource.ide.eclipse.gradle.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>

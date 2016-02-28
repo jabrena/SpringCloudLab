@@ -1,8 +1,8 @@
 {
   "1.0": {
     "project_path": ":",
-    "project_dir": "C:\\Users\\A611654\\Documents\\DATA\\TRAINING\\JAVA\\SpringCloudLab\\SpringBoot\\Example4",
-    "connection_project_dir": "C:\\Users\\A611654\\Documents\\DATA\\TRAINING\\JAVA\\SpringCloudLab\\SpringBoot\\Example4",
+    "project_dir": "/Users/jabrena/Documents/DATA/2015/RESEARCH/robotics/ev3dev/java/SpringCloudLab/SpringBoot/Example4",
+    "connection_project_dir": "/Users/jabrena/Documents/DATA/2015/RESEARCH/robotics/ev3dev/java/SpringCloudLab/SpringBoot/Example4",
     "connection_gradle_user_home": null,
     "connection_gradle_distribution": "GRADLE_DISTRIBUTION(WRAPPER)",
     "connection_java_home": null,

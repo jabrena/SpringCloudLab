@@ -1,7 +1,9 @@
-package boot.examples.controllers;
+package boot.examples.services;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.client.RestTemplate;
+
+import boot.examples.model.Quote;
 
 @Slf4j
 public class RestClient {

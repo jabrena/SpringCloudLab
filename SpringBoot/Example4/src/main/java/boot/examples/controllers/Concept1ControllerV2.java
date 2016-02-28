@@ -6,11 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import boot.examples.model.Quote;
+
 @RestController
 @RequestMapping("/v2")
 public class Concept1ControllerV2 {
 
-	private static final Logger log = LoggerFactory.getLogger(Example4.class);
+	private static final Logger log = LoggerFactory.getLogger(Concept1ControllerV2.class);
 
     @RequestMapping("concept1")
     public String hello() {

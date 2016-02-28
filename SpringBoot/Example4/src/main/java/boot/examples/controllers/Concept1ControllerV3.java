@@ -8,6 +8,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import boot.examples.model.Quote;
+import boot.examples.services.RestClient;
 import rx.Observable;
 import rx.Subscriber;
 import rx.schedulers.Schedulers;
@@ -16,7 +19,7 @@ import rx.schedulers.Schedulers;
 @RequestMapping("/v3")
 public class Concept1ControllerV3 {
 
-	private static final Logger log = LoggerFactory.getLogger(Example4.class);
+	private static final Logger log = LoggerFactory.getLogger(Concept1ControllerV3.class);
 
     private RestClient restClient;
 
@@ -30,10 +33,11 @@ public class Concept1ControllerV3 {
 	
     @RequestMapping("concept1")
     public String hello() {
-    	Observable<Quote> getQuote = getQuote();
+    	Observable<Quote> getQuote1 = getQuote();
+    	Observable<Quote> getQuote2 = getQuote();
 
-        Observable<Quote> fullUser = Observable.zip(Arrays.asList(getQuote), objects -> {
-        	Quote quo = (Quote) objects[0];
+        Observable<Quote> fullUser = Observable.zip(Arrays.asList(getQuote1, getQuote2), objects -> {
+        	Quote quo = (Quote) objects[1];
 
             return quo;
         });
