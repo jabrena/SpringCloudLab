@@ -54,7 +54,7 @@ public class Route2ControllerV1 {
 		
 
     }
-	
+
 	@RequestMapping(value = "route2_1", method = RequestMethod.POST)
 	public Map route2_1(@RequestBody ModelBasic car) {
 		
