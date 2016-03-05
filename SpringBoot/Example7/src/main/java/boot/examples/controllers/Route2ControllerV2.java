@@ -21,6 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import boot.examples.model.ModelBasic;
 import boot.examples.model.ResponseBasic;
+import boot.examples.services.WeatherClient;
+import hello.wsdl.GetCityForecastByZIPResponse;
 
 /**
  * curl -d '{"key1":"value1"}'  -H "Content-Type: application/json" http://localhost:3001/v2/route2/
@@ -64,6 +66,17 @@ public class Route2ControllerV2 {
     	
 		return new ResponseEntity<Map>(map, HttpStatus.OK);	
     }
+	
+	@RequestMapping(value = "route3", method = RequestMethod.GET)
+    public String route3() {
+		WeatherClient weatherClient = new WeatherClient();
+		String zipCode = "94304";
+		GetCityForecastByZIPResponse response = weatherClient.getCityForecastByZip(zipCode);
+        return response.toString();
+		//return response;
+    }
+	
+
 	
 	/*
     @ExceptionHandler

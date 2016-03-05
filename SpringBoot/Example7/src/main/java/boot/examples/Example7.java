@@ -1,13 +1,12 @@
 package boot.examples;
 
-import java.util.Locale;
-
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.support.ReloadableResourceBundleMessageSource;
-import org.springframework.web.servlet.LocaleResolver;
-import org.springframework.web.servlet.i18n.SessionLocaleResolver;
+
+import boot.examples.services.WeatherClient;
+import hello.wsdl.GetCityForecastByZIPResponse;
 
 @SpringBootApplication
 public class Example7 {
@@ -16,6 +15,21 @@ public class Example7 {
         SpringApplication.run(Example7.class);
     }
 
+    /*
+	@Bean
+	CommandLineRunner lookup(WeatherClient weatherClient) {
+		return args -> {
+			String zipCode = "94304";
+
+			if (args.length > 0) {
+				zipCode = args[0];
+			}
+			GetCityForecastByZIPResponse response = weatherClient.getCityForecastByZip(zipCode);
+		};
+	}
+	*/
+    
+    /*
     @Bean
     public LocaleResolver localeResolver() {
         SessionLocaleResolver slr = new SessionLocaleResolver();
@@ -30,5 +44,6 @@ public class Example7 {
     	messageSource.setCacheSeconds(3600); //refresh cache once per hour return messageSource;
     	return messageSource;
     }
+    */
 }
 
