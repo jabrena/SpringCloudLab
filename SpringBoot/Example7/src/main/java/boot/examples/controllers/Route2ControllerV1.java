@@ -19,6 +19,8 @@ import boot.examples.model.ResponseBasic;
 
 /**
  * curl -d '{"key1":"value1"}'  -H "Content-Type: application/json" http://localhost:3001/v1/route2/
+ * curl -d '{"key2":"value1"}'  -H "Content-Type: application/json" http://localhost:3001/v1/route2/
+ * curl -d '{"key1":"value2"}'  -H "Content-Type: application/json" http://localhost:3001/v1/route2/
  * 
  * @author jabrena
  *
