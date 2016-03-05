@@ -5,6 +5,7 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -67,13 +68,15 @@ public class Route2ControllerV2 {
 		return new ResponseEntity<Map>(map, HttpStatus.OK);	
     }
 	
+	@Autowired
+	private WeatherClient weatherClient;
+	
 	@RequestMapping(value = "route3", method = RequestMethod.GET)
-    public String route3() {
-		WeatherClient weatherClient = new WeatherClient();
+    public GetCityForecastByZIPResponse route3() {
 		String zipCode = "94304";
 		GetCityForecastByZIPResponse response = weatherClient.getCityForecastByZip(zipCode);
-        return response.toString();
-		//return response;
+        //return response.toString();
+		return response;
     }
 	
 
