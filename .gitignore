@@ -13,4 +13,9 @@ hs_err_pid*
 
 build
 bin
+.idea
+.gradle
+target
+
+
 

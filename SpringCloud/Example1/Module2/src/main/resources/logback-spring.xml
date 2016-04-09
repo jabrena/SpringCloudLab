@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <logger name="com.examples.controllers" level="WARN" />
+    <springProfile name="default">
+        <logger name="com.examples" level="WARN" />
+    </springProfile>
+</configuration>

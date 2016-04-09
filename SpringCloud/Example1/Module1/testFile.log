@@ -1,0 +1,200 @@
+364  [main] DEBUG com.foo.Library - How are you today?
+369  [main] INFO  com.foo.Library - I am fine.
+370  [main] WARN  com.foo.Library - I love programming.
+370  [main] ERROR com.foo.Library - I am programming.
+391  [main] DEBUG com.foo.Library2 - How are you today?
+391  [main] INFO  com.foo.Library2 - I am fine.
+392  [main] WARN  com.foo.Library2 - I love programming.
+392  [main] ERROR com.foo.Library2 - I am programming.
+403  [main] TRACE com.foo - Hello World!
+403  [main] DEBUG com.foo - How are you today?
+403  [main] INFO  com.foo - I am fine.
+403  [main] WARN  com.foo - I love programming.
+403  [main] ERROR com.foo - I am programming.
+742  [main] DEBUG com.foo.Library - How are you today?
+795  [main] INFO  com.foo.Library - I am fine.
+795  [main] WARN  com.foo.Library - I love programming.
+796  [main] ERROR com.foo.Library - I am programming.
+820  [main] DEBUG com.foo.Library2 - How are you today?
+820  [main] INFO  com.foo.Library2 - I am fine.
+821  [main] WARN  com.foo.Library2 - I love programming.
+821  [main] ERROR com.foo.Library2 - I am programming.
+843  [main] TRACE com.foo - Hello World!
+843  [main] DEBUG com.foo - How are you today?
+844  [main] INFO  com.foo - I am fine.
+844  [main] WARN  com.foo - I love programming.
+844  [main] ERROR com.foo - I am programming.
+432  [main] DEBUG com.foo.Library - How are you today?
+554  [main] INFO  com.foo.Library - I am fine.
+554  [main] WARN  com.foo.Library - I love programming.
+554  [main] ERROR com.foo.Library - I am programming.
+567  [main] DEBUG com.foo.Library2 - How are you today?
+567  [main] INFO  com.foo.Library2 - I am fine.
+567  [main] WARN  com.foo.Library2 - I love programming.
+567  [main] ERROR com.foo.Library2 - I am programming.
+612  [main] TRACE com.foo - Hello World!
+613  [main] DEBUG com.foo - How are you today?
+613  [main] INFO  com.foo - I am fine.
+613  [main] WARN  com.foo - I love programming.
+613  [main] ERROR com.foo - I am programming.
+414  [main] DEBUG com.foo.Library - How are you today?
+429  [main] INFO  com.foo.Library - I am fine.
+429  [main] WARN  com.foo.Library - I love programming.
+430  [main] ERROR com.foo.Library - I am programming.
+441  [main] DEBUG com.foo.Library2 - How are you today?
+442  [main] INFO  com.foo.Library2 - I am fine.
+442  [main] WARN  com.foo.Library2 - I love programming.
+442  [main] ERROR com.foo.Library2 - I am programming.
+450  [main] TRACE com.foo - Hello World!
+450  [main] DEBUG com.foo - How are you today?
+450  [main] INFO  com.foo - I am fine.
+451  [main] WARN  com.foo - I love programming.
+452  [main] ERROR com.foo - I am programming.
+1059 [main] DEBUG com.foo.Library - How are you today?
+1165 [main] INFO  com.foo.Library - I am fine.
+1167 [main] WARN  com.foo.Library - I love programming.
+1167 [main] ERROR com.foo.Library - I am programming.
+1364 [main] DEBUG com.foo.Library2 - How are you today?
+1364 [main] INFO  com.foo.Library2 - I am fine.
+1364 [main] WARN  com.foo.Library2 - I love programming.
+1365 [main] ERROR com.foo.Library2 - I am programming.
+1409 [main] TRACE com.foo - Hello World!
+1410 [main] DEBUG com.foo - How are you today?
+1410 [main] INFO  com.foo - I am fine.
+1410 [main] WARN  com.foo - I love programming.
+1410 [main] ERROR com.foo - I am programming.
+435  [main] DEBUG com.foo.Library - How are you today?
+494  [main] INFO  com.foo.Library - I am fine.
+495  [main] WARN  com.foo.Library - I love programming.
+495  [main] ERROR com.foo.Library - I am programming.
+542  [main] DEBUG com.foo.Library2 - How are you today?
+543  [main] INFO  com.foo.Library2 - I am fine.
+543  [main] WARN  com.foo.Library2 - I love programming.
+543  [main] ERROR com.foo.Library2 - I am programming.
+599  [main] TRACE com.foo - Hello World!
+600  [main] DEBUG com.foo - How are you today?
+600  [main] INFO  com.foo - I am fine.
+600  [main] WARN  com.foo - I love programming.
+601  [main] ERROR com.foo - I am programming.
+398  [main] DEBUG com.foo.Library - How are you today?
+434  [main] INFO  com.foo.Library - I am fine.
+434  [main] WARN  com.foo.Library - I love programming.
+434  [main] ERROR com.foo.Library - I am programming.
+456  [main] DEBUG com.foo.Library2 - How are you today?
+456  [main] INFO  com.foo.Library2 - I am fine.
+457  [main] WARN  com.foo.Library2 - I love programming.
+457  [main] ERROR com.foo.Library2 - I am programming.
+513  [main] TRACE com.foo - Hello World!
+513  [main] DEBUG com.foo - How are you today?
+513  [main] INFO  com.foo - I am fine.
+514  [main] WARN  com.foo - I love programming.
+514  [main] ERROR com.foo - I am programming.
+435  [main] DEBUG com.foo.Library - How are you today?
+461  [main] INFO  com.foo.Library - I am fine.
+462  [main] WARN  com.foo.Library - I love programming.
+462  [main] ERROR com.foo.Library - I am programming.
+493  [main] DEBUG com.foo.Library2 - How are you today?
+493  [main] INFO  com.foo.Library2 - I am fine.
+493  [main] WARN  com.foo.Library2 - I love programming.
+493  [main] ERROR com.foo.Library2 - I am programming.
+549  [main] TRACE com.foo - Hello World!
+549  [main] DEBUG com.foo - How are you today?
+549  [main] INFO  com.foo - I am fine.
+550  [main] WARN  com.foo - I love programming.
+550  [main] ERROR com.foo - I am programming.
+473  [main] DEBUG com.foo.Library - How are you today?
+510  [main] INFO  com.foo.Library - I am fine.
+510  [main] WARN  com.foo.Library - I love programming.
+511  [main] ERROR com.foo.Library - I am programming.
+552  [main] DEBUG com.foo.Library2 - How are you today?
+552  [main] INFO  com.foo.Library2 - I am fine.
+553  [main] WARN  com.foo.Library2 - I love programming.
+553  [main] ERROR com.foo.Library2 - I am programming.
+597  [main] TRACE com.foo - Hello World!
+597  [main] DEBUG com.foo - How are you today?
+598  [main] INFO  com.foo - I am fine.
+598  [main] WARN  com.foo - I love programming.
+598  [main] ERROR com.foo - I am programming.
+504  [main] DEBUG com.foo.Library - How are you today?
+629  [main] INFO  com.foo.Library - I am fine.
+629  [main] WARN  com.foo.Library - I love programming.
+629  [main] ERROR com.foo.Library - I am programming.
+684  [main] DEBUG com.foo.Library2 - How are you today?
+684  [main] INFO  com.foo.Library2 - I am fine.
+684  [main] WARN  com.foo.Library2 - I love programming.
+684  [main] ERROR com.foo.Library2 - I am programming.
+706  [main] TRACE com.foo - Hello World!
+707  [main] DEBUG com.foo - How are you today?
+707  [main] INFO  com.foo - I am fine.
+707  [main] WARN  com.foo - I love programming.
+707  [main] ERROR com.foo - I am programming.
+410  [main] DEBUG com.foo.Library - How are you today?
+428  [main] INFO  com.foo.Library - I am fine.
+428  [main] WARN  com.foo.Library - I love programming.
+429  [main] ERROR com.foo.Library - I am programming.
+447  [main] DEBUG com.foo.Library2 - How are you today?
+447  [main] INFO  com.foo.Library2 - I am fine.
+447  [main] WARN  com.foo.Library2 - I love programming.
+448  [main] ERROR com.foo.Library2 - I am programming.
+458  [main] TRACE com.foo - Hello World!
+459  [main] DEBUG com.foo - How are you today?
+459  [main] INFO  com.foo - I am fine.
+459  [main] WARN  com.foo - I love programming.
+460  [main] ERROR com.foo - I am programming.
+376  [main] DEBUG com.foo.Library - How are you today?
+393  [main] INFO  com.foo.Library - I am fine.
+393  [main] WARN  com.foo.Library - I love programming.
+394  [main] ERROR com.foo.Library - I am programming.
+402  [main] DEBUG com.foo.Library2 - How are you today?
+403  [main] INFO  com.foo.Library2 - I am fine.
+403  [main] WARN  com.foo.Library2 - I love programming.
+403  [main] ERROR com.foo.Library2 - I am programming.
+414  [main] TRACE com.foo - Hello World!
+415  [main] DEBUG com.foo - How are you today?
+415  [main] INFO  com.foo - I am fine.
+415  [main] WARN  com.foo - I love programming.
+415  [main] ERROR com.foo - I am programming.
+403  [main] DEBUG com.foo.Library - How are you today?
+430  [main] INFO  com.foo.Library - I am fine.
+431  [main] WARN  com.foo.Library - I love programming.
+431  [main] ERROR com.foo.Library - I am programming.
+487  [main] DEBUG com.foo.Library2 - How are you today?
+492  [main] INFO  com.foo.Library2 - I am fine.
+493  [main] WARN  com.foo.Library2 - I love programming.
+494  [main] ERROR com.foo.Library2 - I am programming.
+520  [main] TRACE com.foo - Hello World!
+520  [main] DEBUG com.foo - How are you today?
+520  [main] INFO  com.foo - I am fine.
+520  [main] WARN  com.foo - I love programming.
+521  [main] ERROR com.foo - I am programming.
+476  [main] DEBUG com.foo.Library - How are you today?
+520  [main] INFO  com.foo.Library - I am fine.
+520  [main] WARN  com.foo.Library - I love programming.
+521  [main] ERROR com.foo.Library - I am programming.
+550  [main] DEBUG com.foo.Library2 - How are you today?
+550  [main] INFO  com.foo.Library2 - I am fine.
+550  [main] WARN  com.foo.Library2 - I love programming.
+550  [main] ERROR com.foo.Library2 - I am programming.
+595  [main] TRACE com.foo - Hello World!
+596  [main] DEBUG com.foo - How are you today?
+596  [main] INFO  com.foo - I am fine.
+596  [main] WARN  com.foo - I love programming.
+596  [main] ERROR com.foo - I am programming.
+201  [Test worker] DEBUG com.foo.Library - How are you today?
+232  [Test worker] INFO  com.foo.Library - I am fine.
+232  [Test worker] WARN  com.foo.Library - I love programming.
+233  [Test worker] ERROR com.foo.Library - I am programming.
+237  [Test worker] DEBUG com.foo.Library2 - How are you today?
+237  [Test worker] INFO  com.foo.Library2 - I am fine.
+239  [Test worker] WARN  com.foo.Library2 - I love programming.
+240  [Test worker] ERROR com.foo.Library2 - I am programming.
+247  [Test worker] TRACE com.foo - Hello World!
+248  [Test worker] DEBUG com.foo - How are you today?
+249  [Test worker] INFO  com.foo - I am fine.
+251  [Test worker] WARN  com.foo - I love programming.
+252  [Test worker] ERROR com.foo - I am programming.
+461  [main] TRACE com.foo - Hello World!
+483  [main] DEBUG com.foo - How are you today?
+483  [main] INFO  com.foo - I am fine.
+484  [main] WARN  com.foo - I love programming.
+484  [main] ERROR com.foo - I am programming.

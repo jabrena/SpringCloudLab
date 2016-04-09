@@ -1,0 +1,11 @@
+spring.profiles.active: default
+---
+spring:
+  profiles: default
+server:
+  port: 2000
+
+logging:
+  level:
+    root: WARN
+    com.examples.controllers: WARN

@@ -1,0 +1,36 @@
+
+apply plugin: "java"
+apply plugin: "idea"
+apply plugin: "eclipse"
+
+repositories {
+    mavenCentral()
+}
+
+version = "0.1.0"
+jar {
+    baseName = "Module1"
+    version =  version + '-SNAPSHOT'
+}
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile("org.projectlombok:lombok:1.16.8")
+    compile("ch.qos.logback:logback-classic:1.1.6")
+
+    testCompile("junit:junit:4.12")
+}
+
+//Create a single Jar with all dependencies
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'HelloWorld'
+    }
+    baseName = 'Module1' + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
