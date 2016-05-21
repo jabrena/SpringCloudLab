@@ -60,3 +60,11 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-log
 https://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html
 
 http://www.javabeat.net/spring-boot-logging/
+
+SpringBoot >> ELK Server
+https://gist.github.com/rasheedamir/82e06a2754ca174e921d
+
+http://kielczewski.eu/2014/12/few-recommendations-on-logging/
+http://blog.florian-hopf.de/2015/01/logging-to-redis-using-spring-boot-and.html
+
+
