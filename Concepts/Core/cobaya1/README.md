@@ -30,7 +30,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.
 
 # Exercise
 
-``` 
+```
 Desarrolla una aplicacion en Spring que implemente el calculo de la circunferencia.
 El calculo de la circunferencia es: C = D * pi
 http://www.aaamatematicas.com/geo612x4.htm
@@ -50,6 +50,7 @@ Para la configuracion de los Beans, emplea una Clase Java.
 
 # Popular questions:
 
+```
 3) What is the default scope of bean in Spring framework?
 The default scope of bean is Singleton for Spring framework.
 5) Is Singleton beans are thread safe in Spring Framework?
@@ -64,3 +65,4 @@ Setup – called when bean is loaded into container
 Teardown – called when bean is unloaded into container
 22) Differentiate between singleton and prototype bean?
 Singleton means only one bean is defined per object instance while Prototype means one definition to more than one object instances in Spring.
+``` 
