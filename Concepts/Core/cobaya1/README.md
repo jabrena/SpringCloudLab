@@ -35,7 +35,7 @@ Desarrolla una aplicacion en Spring que implemente el calculo de la circunferenc
 El calculo de la circunferencia es: C = D * pi
 http://www.aaamatematicas.com/geo612x4.htm
 
-Para la implmentacion, desarrolla un proyecto Java con Gradle
+Para la implementacion, desarrolla un proyecto Java con Gradle
 empleando Springs para la gestion de los Beans.
 
 Beans a desarrollar:
@@ -46,6 +46,10 @@ Bean PiCERT (Ofrece una rapida implementacion de PI)
 
 Para la configuracion de los Beans, emplea una Clase Java.
 ```
+
+Tips:
+
+Creacion de proyecto Java: gradle init --type java-library
 
 
 # Popular questions:
@@ -65,4 +69,4 @@ Setup – called when bean is loaded into container
 Teardown – called when bean is unloaded into container
 22) Differentiate between singleton and prototype bean?
 Singleton means only one bean is defined per object instance while Prototype means one definition to more than one object instances in Spring.
-``` 
+```
