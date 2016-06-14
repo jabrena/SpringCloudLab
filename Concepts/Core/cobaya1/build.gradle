@@ -1,32 +1,19 @@
 group 'edu.spring.core'
 version '0.1.0'
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
-    }
-}
-
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: 'spring-boot'
 apply plugin: 'application'
 
-mainClassName = "edu.spring.context.Example10"
-
-// In this section you declare where to find the dependencies of your project
 repositories {
     mavenCentral()
 }
 
-// In this section you declare the dependencies for your production and test code
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+mainClassName = "edu.spring.context.Example10"
+
 dependencies {
-    compile group: "org.springframework.boot", name: "spring-boot-starter-web"
-    compile("org.springframework.boot:spring-boot-starter-actuator")
-    compile("org.springframework.cloud:spring-cloud-starter-eureka-server:1.0.0.RELEASE")
-    compile("org.springframework:spring-web")
+    compile 'org.springframework:spring-context:4.3.0.RELEASE'
+    testCompile 'junit:junit:4.12'
 }
