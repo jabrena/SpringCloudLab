@@ -65,7 +65,6 @@ public class HotelController extends AbstractRestHandler {
                              HttpServletRequest request, HttpServletResponse response) throws Exception {
         Hotel hotel = this.hotelService.getHotel(id);
         checkResourceFound(hotel);
-        //todo: http://goo.gl/6iNAkz
         return hotel;
     }
 
@@ -83,7 +82,6 @@ public class HotelController extends AbstractRestHandler {
         this.hotelService.updateHotel(hotel);
     }
 
-    //todo: @ApiImplicitParams, @ApiResponses
     @RequestMapping(value = "/{id}",
             method = RequestMethod.DELETE,
             produces = {"application/json", "application/xml"})
